@@ -37,4 +37,4 @@ Run:
 > py cpp_numpy-bigA.py
 
 ### Note:
-[Extending Python with C or C++ — Python 3.13.2 documentation](https://docs.python.org/3/extending/extending.html)
+For python.h, see [Extending Python with C or C++](https://docs.python.org/3/extending/extending.html)
