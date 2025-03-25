@@ -1,7 +1,5 @@
-# Cpp-inside-Python
-    A full example for calling a Py-method coded in C++
-
-In case you want to extend or speed up Python with C++
+# Implement a Py-method in C++: A full example
+    In case you want to extend or speed up Python with C++
 
 ### Directory structure and files for build C++ inside Python:
 cpp_work_dir/\
