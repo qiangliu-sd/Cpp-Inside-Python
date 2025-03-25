@@ -2,7 +2,7 @@
     In case you want to extend or speed up Python with C++
 
 ### Directory structure and files for build C++ inside Python:
-cpp_work_dir/\
+py_work_dir/\
 ├─ pyproject.toml\
 ├─ setup.py\
 ├─ src/\
@@ -24,7 +24,7 @@ module [ql_std_cpp]:
 1. build in dir(cpp_work_dir) where **pyproject.toml** is located:
 > py -m build
 
-if build does not work, try install the latest version of build:
+If build does not work, try installing the latest version of build:
 > pip install --upgrade build
 
 2. install a local package
@@ -33,4 +33,8 @@ if build does not work, try install the latest version of build:
 ### Testing:
 Download dir and files\
 Build & install\
-Run **cpp_numpy-bigA.py**
+Run:
+> py cpp_numpy-bigA.py
+
+### Note:
+[Extending Python with C or C++ — Python 3.13.2 documentation](https://docs.python.org/3/extending/extending.html)
