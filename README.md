@@ -33,7 +33,7 @@ If build does not work, try installing the latest version of build:
 ### Testing:
 Download dir and files\
 Build & install\
-Run:
+Run by typing command:
 > py cpp-vs-numpy.py
 
 ### Note:
