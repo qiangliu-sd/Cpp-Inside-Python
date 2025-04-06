@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ql_package"
+version = "0.0.1"
+authors = [
+  { name="Qiang Liu", email="qianliu.xx@gmail.com" },
+]
+description = "A full template for using C++ implementation in Python"
+readme = "README.txt"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
