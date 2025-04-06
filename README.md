@@ -16,10 +16,10 @@ package [ql_package]:
 - contains module [ql_std_jit]
 
 module [ql_std_cpp]:
-- defined in **setup.py & in ql_std.cpp**
+- defined in **setup.py** & in **ql_std.cpp**
 - treated as built-in module
 
-### Build C++ and install
+### Build (C++) and install
 
 1. build in dir(cpp_work_dir) where **pyproject.toml** is located:
 > py -m build
@@ -34,7 +34,7 @@ If build does not work, try installing the latest version of build:
 Download dir and files\
 Build & install\
 Run:
-> py cpp_numpy-bigA.py
+> py cpp-vs-numpy.py
 
 ### Note:
 For python.h, see [Extending Python with C or C++](https://docs.python.org/3/extending/extending.html)
